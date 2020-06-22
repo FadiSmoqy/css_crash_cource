@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#div-1{
+    border: 5px solid red;
+    background: lightyellow;
+    padding: 50px;
+}
+
+#div-1 img{
+    float: left;
+}
+#div-1 p{
+    clear: left; /* macht das das p nicht unter dem bild geht */
+    /* wenn es zwei bilder sind muss man clear: both; schreiben*/
+    overflow: hidden; 
+    /*overflow:hidden; when the photo gets
+     bigger in will be in the div, 
+    it will not be bigger the div 
+    */
+}
+
+
+
+#one{
+    background: red;
+    width: 33.33%;
+    height: 500px;
+    float: left;
+    font-size: 25px;
+}
+
+#two{
+    background: green;
+    width: 33.33%;
+    height: 500px;
+    float: left;
+    font-size: 25px;
+}
+
+#three{
+    background: blue;
+    width: 33.33%;
+    height: 500px;
+    float: left;
+    font-size: 25px;
+}
+#four{
+    background: blueviolet;
+    width: 33.33%;
+    height: 500px;
+    float: left;
+    font-size: 25px;
+}
+
+#text1{
+    clear: both;
+}
+
+
+/* position:relative;*/
+
+#div1{
+    background: yellow;
+    border: 3px solid red;
+}
+#div1 p{
+    margin:25px;
+}
+#p1{
+    background: green;
+
+}
+#p2{
+    background: blue;
+    position: relative;
+    top: 20px;
+    right: 60px;
+    /*left:400px;*/
+    /*bottom: 5px;*/
+    
+/* positon:absolute; */
+}
+#p2 span{
+    background: lightblue;
+    position:absolute;
+    top:10px;
+    right: 50%; /* der parent muss relativa sein um absolute everwenden su können */
+   
+}
+/* position:fixed; */
+
+#btn{
+    background: lightblue;
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
+    position: fixed;
+    top: 20vh;
+    right: 0;
+    /* it will not move when you scroll */
+    /* but you have to give top/bottom, right/left to see it */
+}

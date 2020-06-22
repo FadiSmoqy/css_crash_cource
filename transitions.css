@@ -1,0 +1,93 @@
+/*
+ transition
+ transition-delay -- warte zeit 
+ transition-property --- element das man verenden will (background, border, all)
+ transition-duration ---- zeit zwischen die änderung
+ tran
+ */
+
+.tr{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+.div-1{
+    background: red;
+    transition-property: background, border-radius; /* was man verändern will*/
+    transition-duration: 1000ms, 2000ms; /* zeit */
+    transition-delay: 0,2s; /* it will wait 1 sec and than the transition will start */
+    /*transition: background, border-radius, 2s 3s;*/
+}
+.div-2{
+    background: green;
+    transition: all 1s;
+}
+
+.div-1:hover{
+    background: green;
+    border-radius: 20px;
+}
+.div-2:hover{
+    border-radius: 50%;
+    background: linear-gradient(rgba(125, 26, 147, 1), rgba(22, 33, 125, 1));
+}
+/*---------------------------------------------*/
+
+
+/*
+transition-timing-function:
+ease = default
+ease = slow start, fast, slow
+linear = same speed all time
+ease-in = slow start
+ease-out = slow end
+ease-in-out = slow start, fast, slow end
+*/
+.boxes{
+    background: blue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    transition: all 0.5s;
+}
+.boxes:hover{
+    transform: translateX(50px);
+}
+.default{
+    transition: all 0.5s;
+}
+.ease{
+    transition: all 0.5s ease;
+}
+.linear{
+    transition: all 00.5s linear;
+}
+.ease-in{
+    transition: all 0.5s ease-in;
+}
+.ease-out{
+    transition-timing-function: ease-out; /* we gave the other things on the (top in boxes)*/
+}
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+/*----------------------------------------------------*/
+.box-1{
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s linear;
+}
+.box-1:hover{
+    background: green;
+    border-radius: 50%;
+    transform: rotateX(180deg);
+}

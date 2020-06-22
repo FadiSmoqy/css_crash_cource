@@ -1,0 +1,82 @@
+/*
+ Fonts family
+ font-stacks
+*/
+
+#heading1{
+    font-family: serif, sans-serif, cursive, fantasy, monospace;
+
+}
+#text1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* google fonts */
+#heading2{
+    font-family: 'Lora', serif;
+}
+
+/* 
+font-weight
+font-style
+
+Tipp: if you import a link like 
+(google fonts) your font-weight
+and your font-style won't work
+*/
+#heading3{
+    font-weight: lighter;
+}
+#heading4{
+    font-weight: bold;
+}
+
+
+.heading{
+    font-weight: 900;
+    font-style: normal; /* that is important wehen you added a font to you body but you want this to be normal */
+}
+
+
+/* 
+text-align
+text-indent
+*/
+#text2{
+    text-align:center;
+}
+#text3{
+    text-indent: 50px; /* 50px empty and than the text */
+}
+
+
+/* 
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+*/
+#text4{
+    line-height: 40px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    background-color: aqua;
+}
+#heading5{
+    text-transform:capitalize; /*options:
+                                    capitalize.
+                                    uppercase.
+                                    lowercase.
+                                    none.
+                                 */
+}
+a{
+    font-size: 50px;
+    text-decoration: none; /* options: viele */
+    /* for example: line trough, underline, overline... */
+}
+
+
+

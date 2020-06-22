@@ -1,0 +1,35 @@
+
+/* z-index */
+/* it works if there is a position*
+/* position:static; --- this will not work */
+
+
+/* z-index macht so das das bild zumbeispiel unter/über ein anderes element ist*/
+#container{
+    height: 500px;
+    width: 500px;
+    border: 5px solid black;
+    position: relative;
+}
+
+img{
+    height: 140px;
+    position:absolute;
+}
+
+
+#img1{
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#img2{
+    top: 15%;
+    left: 15%;
+    z-index: -1;
+}
+#img3{
+    top:30%;
+    left: 30%;
+    z-index: -2;
+}

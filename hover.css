@@ -1,0 +1,38 @@
+/* :hover */
+#link:hover{
+    font-size: 50px;
+}
+h1:hover{
+    background:blue;
+    color: red;
+
+}
+p:hover{
+    color: white;
+    background: black
+}
+/*--------------------*/
+
+/* :link   :visited  :hover  :active*/
+
+.links{
+    display:block;
+    line-height: 30px;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+a:link{
+    background: lightcoral; /* alle links werden so ein background haben*/
+}
+a:visited{
+    color: lightskyblue;
+}
+a:hover{
+    background:lightblue;
+    color: black;
+}
+a:active{
+    background: green; /* if click than green for 1sec*/
+}

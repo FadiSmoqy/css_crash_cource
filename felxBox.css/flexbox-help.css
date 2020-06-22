@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+.flexbox-container{
+    height: 100vh;
+    background: yellow;
+    display: flex; /*it will felx the items*/
+    /*if you want to flex smth you have to give to parent display:flex;*/
+    /* if the screen gets smaller the items will shrink*/
+
+    justify-content: flex-start;/*default. they will start from left/start.*/
+    justify-content: flex-end; /*start right*/
+    justify-content: center;/*center of container*/
+    justify-content: space-between; /*all the free space will be in between of them*/
+    justify-content: space-around;/* all the free space will be in between and in between the top/bottom*/
+    
+    align-items: flex-start;/*it will align at the top and they will have their size*/
+    align-items: flex-end; /*same size, align at the bottom*/
+    align-items: center; /*same size, align center*/
+
+    flex-wrap: wrap; /* if the items won't have space they will be on top of each other*/
+
+    /*flex-direction: column; /*they will be horizental (on top of ech othder)*/
+}
+.flexbox-items{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background: #dfdfdf;
+
+}
+.flexbox-item-1{
+    min-height: 100px;
+    flex-shrink: 0;/* this item will not shrink nomatter how small the screen is*/
+}
+.flexbox-item-2{
+    min-height: 200px;
+}
+.flexbox-item-3{
+    min-height: 300px;
+}
+/*----------------------------------------------------------------------------------*/
+
+
+
+.flexbox-container-1{
+    height: 350px;
+    background: burlywood;
+    display: flex; /*it will felx the items*/
+    /*if you want to flex smth you have to give to parent display:flex;*/
+    /* if the screen gets smaller the items will shrink*/
+    justify-content: center;
+    align-items: center; 
+}
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background: #dfdfdf;
+}
+
+.flexbox-item-4{
+    min-height: 100px;
+    flex-shrink: 0;/* this item will not shrink nomatter how small the screen is*/
+    flex-grow: 1;
+    /*if we give flex:grow; to more then one then all item will grow all same size*/
+    /*flex-grow: 0; it will not grow*/
+    align-self: center; /*it is the same as align-items but align-items works only for parent*/
+    order: 0; /*ordering*/
+    /*nich wichtig*/
+}
+.flexbox-item-5{
+    min-height: 200px;
+    flex-grow: 2; /*if there is free space this item will get bigger*/
+    flex-basis: 0; /* if they grow this will be ecsakt twice as big as the item 6*/
+    /* nicht wichtig flex-basis;*/
+    /*align-self: stretch; default*/
+    align-self: flex-start;
+    order: 1; /*ordering*/
+    /*nich wichtig*/
+}
+.flexbox-item-6{
+    min-height: 300px;
+    flex-grow: 1 ; /*if there is free space this item will get bigger*/
+    flex-basis: 0;
+    align-self: flex-end; /*it is the same as align-items but align-items works only for parent*/
+}
+/*----------------------------flexbox End ---------------------------*/

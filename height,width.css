@@ -1,0 +1,31 @@
+/* width, height, pixels = absolute*/
+
+#div1{
+    width: 400px;
+    height: 200px;
+    background: greenyellow;
+}
+/*  percents = relative*/
+    #outer{
+       width: 400px;
+       height: 300px;
+       background: lightsalmon;
+    }
+    #inner{
+        width:50%; /* it takes 50% width of the div */
+        width:50%; /* it takes 50% height of the div */
+        height:50%;
+        background: blue;
+    }
+
+    /*
+    vh - height - percent if the screen
+    vh - width - percent if the screen
+ 
+    */
+    #div2{
+        height: 25vh; /* it takes 25 height of the screen */
+        width: 20vw; /* it takes 20 width of the screen */
+        background: lightblue;
+    }
+    

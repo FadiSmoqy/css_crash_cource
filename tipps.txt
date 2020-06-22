@@ -1,0 +1,63 @@
+box model:
+border
+margin 
+padding
+
+
+border: size(5px) solid/dashed/dotted... color(back);
+
+border/margin/padding: top right bottem left;
+
+
+background-position: X:50% Y:40;
+
+
+
+youtube:
+	search linear-radiens css(wichtig)
+
+
+background: linear-gradient(deg89100deg farbe farbe farbe... )
+
+
+background: lineat.gradient( color(green), color(yellow)), url(img) background-position(center)/background-size(cover) background-repeat(no-repeat) background-attachment(fixed); the project: linear-gradients in vscode
+
+
+positions:
+	position: fixed,relativa,absolute
+	top/bottom:0;
+	right/left:23;
+
+
+
+google suchen:
+	basic template
+
+
+
+
+
+
+
+
+	wenn man display: inline-block; schreibt dann funtiuniert 	text-align:center; für alle elemente
+
+
+
+
+text-shadow: x(2px) y(-1px) blur(1px) color(red);
+
+
+
+
+
+
+
+
+
+
+flex-box:
+felx-grow: ;
+flex-shrink: ;
+flex-basis: ;
+flex: felxgrow felxshrink flexbasis;

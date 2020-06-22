@@ -1,0 +1,94 @@
+body {
+    background: #333;
+}
+/*
+.animation {
+    background: white;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation-name: fadi;
+    animation-duration: 6s;
+}
+@keyframes fadi {
+    0%{
+        background: white;
+        border: 0px;
+        border-radius: 0%;
+    }
+    25%{
+        background: blue;
+        border: 2px;
+        border-radius: 25%;
+    }
+    50%{
+        background-color: rgb(37, 221, 181);
+        border-bottom-left-radius: 0%;
+        border-top-right-radius: 0%;
+    }
+    75%{
+        background: rgb(82, 107, 134);
+        border-bottom-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 0%;
+        border-top-left-radius: 0% ;
+    }
+    100%{
+        background: white;
+        border: 0px;
+        border-radius: 0%;
+    }
+}
+*/
+.animation{
+    background: rgb(52, 50, 141);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    animation-name: my;
+    animation-duration: 5s; /*the animation will be 10s lond*/
+    animation-delay: 1s;
+    animation-iteration-count: infinite; /* it will go forever*/ /* you can also put a nummber in there*/
+    animation-direction: alternate; /*it wil go backwards, forwards*/
+    /* animation-direction: reverse; it will go backwards*/
+    animation-timing-function: ease-in-out; 
+    animation-fill-mode: forwards; /* it will stay the same at the end (100%) */
+}
+
+@keyframes my {
+    0%{
+        background: rgb(52, 50, 141);
+        height: 150px;
+        width: 150px;
+        border-radius: 0 0 0 0;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        border-radius: 50% 0 0 0;
+        background: rgb(82, 40, 131);
+        left: 300px;
+        top: 0px;
+    }
+    50%{
+        border-radius: 50% 50% 0 0;
+        background: rgb(102, 40, 131);
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        border-radius: 50% 50% 50% 0;
+        background: rgb(140, 60, 161);
+        left: 0px;
+        top: 300px;
+    }
+    100%{
+        background: rgb(52, 50, 141);
+        height: 150px;
+        width: 150px;
+        border-radius: 50%; 
+        left: 0;
+        top: 0;
+    }
+}
+

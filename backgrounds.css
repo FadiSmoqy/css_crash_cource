@@ -1,0 +1,82 @@
+/* background-repeat */
+
+div{
+    height:400px;
+    font-size: 40px;
+    color: crimson;
+    margin: 20px;
+}
+
+#medium-img{
+    background: url('./img/medium.jpg');
+    background-repeat: no-repeat; 
+    /* das bild wird nur einmal in background gesetzt. */
+}
+#small-img{
+    background: url('./img/small.jpg');
+    background-repeat:repeat-x; /* repeat-y*/
+    /* it will repeat just in x/y axis*/
+    background-repeat: space; 
+    /* it will make space between the images */
+    background-repeat: round;
+    /* it will place a other img when there is place for it */
+}
+
+/* background-size: cover/contain */
+
+#small{
+    height: 400px;
+    width: 450px;
+    background: url('./img/small.jpg');
+    background-size: cover; /* backgrund-size:cantian */
+    /* it fits the img in the divit makes it large a the div */
+}
+
+/* background-position: left
+                        right
+                        center
+                        bottom
+                        top
+you can also right with x/y % (background-position: 50% 40%)
+*/
+
+#small-1{
+    background: url('img/small.jpg');
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-position: 50% 50%;
+    height: 300px;
+    width: 450px;
+    border: 5px solid red;
+
+}
+/* backgrond-attachment: fixed.  the background will not move
+    sehr wichig für paralax efects
+*/
+
+
+
+
+
+
+                    /* linear-gradient */
+
+
+
+div{
+    height: 250px;
+    width:250px;
+    margin: 30px;
+    font-size: 50px;
+}
+#div1{
+    background: linear-gradient(to top, red, green, blue);     
+}
+#div2{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+#div3{
+    background: linear-gradient(250deg, rgba(120, 102, 123, 0.4), rgba(10, 15, 123, 1))
+}
+
+

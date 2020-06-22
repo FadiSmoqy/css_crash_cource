@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    color: orange;
+}
+#banner{
+    background: url('./img/medium.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+     url('img/basketball-klein.jpg') center/cover no-repeat fixed;
+                                    /*background-position: center;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    background-attachment: fixed;*/
+}
+#nr3{
+    background: linear-gradient(rgba(0, 0, 0, 0.9),  rgba(0, 0, 0, 1) ),
+    url('img/basketball-klein.jpg') center/cover no-repeat fixed;;
+
+}
+#dark{
+    background: black;
+}
+

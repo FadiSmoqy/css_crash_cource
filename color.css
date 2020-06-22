@@ -1,0 +1,37 @@
+/* 
+color 
+background-color
+*/
+
+
+#heading1{
+    color: lightgreen;
+    background: black;
+}
+
+
+/* RGB (red, green, blue) 0-255 */
+
+#heading2{
+    color: rgb(1, 22, 125);
+    background: rgb(123, 23, 0);
+}
+#heading3{
+    color: rgb(244, 25, 200)
+}
+
+/* rgba red green blue 0-255 and opacity 0-1*/
+
+#heading4{
+    background: rgba(23, 34, 100, 0.5);
+    color: rgba(23, 49, 75, 1);
+}
+#heading5{
+    color: rgba(233, 0, 33, 0.3)
+}
+/* HEX */
+#heading6{
+    color: #b9a2eb;
+}
+
+/* End */

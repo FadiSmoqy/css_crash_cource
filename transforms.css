@@ -1,0 +1,91 @@
+
+/*
+.one-box{
+    width: 170px;
+    height: 190px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* the best way to brind smth in the center*/
+    
+
+/* transform: tranlate(), scale(), rotate(), skew()*/
+
+/*transform: translate()*/
+.all-div{
+    width: 100vw;
+    height: 100vh;
+}
+
+.all-1{
+    height:150px;
+    width: 150px;
+    display: inline-block;
+}
+
+.one{
+    background: blue;
+    transform: translate(20px, 150px);
+}
+.two{
+    background: green;
+    transform: translate(100px, 200px); /* x:100px, y:200px*/
+}
+.three{
+    background:red;
+    transform: translate(-200px, -10px);
+}
+
+/*transform: scale()*/
+
+.four{
+    background: lightcoral;
+    /*transform: scaleX(0.7);
+    transform:scaleY(0.5);*/
+    transform: scale(0.7, 0.5) /* macht klein/groß*/
+}
+.five{
+    background: lightblue;
+    transform: scale(1, 1.1);
+}
+.six{
+    background:lightseagreen;
+    transform: scale(1, 0.2)
+}
+
+/* transform: rotate() */
+
+.seven{
+    background: saddlebrown;
+    /*transform: rotateZ(30deg)*/
+    transform: rotate(30deg)
+}
+.eight{
+    background: lightpink;
+    transform: rotateX(40deg) /* it will flip 40deg in x derectiion */
+
+}
+.nine{
+    background: silver;
+    transform: rotateY(50deg) /* it will flip 50deg in y derectiion */
+}
+
+/* transform: skew() */
+
+.box-1{
+    background: red;
+    transform: skewX(20deg)
+}
+.box-2{
+    background: red;
+    transform: skewX(20deg)
+}
+.box-3{
+    background: red;
+    transform: skew(20deg, 0)
+}
+
+
+

@@ -1,0 +1,61 @@
+/* css model box:
+border
+margin 
+padding
+*/
+
+#text1{
+background:rgb(56, 72, 78);
+/* 
+padding: 28px;
+margin: 50;
+*/
+padding: 30px 20px 50px 70px;
+
+margin: 44px 54px 0px 70px;
+/*
+border-width: 5px;
+border-color: red;
+border-style: dotted;
+*/
+border: 5px dotted rgb(0, 0, 0);
+border-left-style: solid;
+border-radius:10px;
+}
+#text2{
+background:rgb(215, 226, 173);
+border: 5px solid rgb(48, 26, 53);
+margin: 0px 54px 0px 70px;
+
+padding: 30px;
+/* border-radius */
+border-radius: 15px;
+}
+
+/* 
+outline 
+outline-offset
+TIpp:   outline ist wie border aber 
+        man kann das rein und raus schieben.
+*/
+#text3{
+    /* 
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: #333333;
+    */
+    outline: 5px solid #333333;
+    border: 5px solid #7c4646;
+    outline-offset: 10px;
+    padding: 20px;
+    margin: 100px 54px 0px 70px;
+    background: gray
+ 
+}
+#text4{
+    outline: 5px solid #333333;
+    outline-offset: -20px;
+    margin: 100px 54px 0px 70px;
+    padding: 40px;
+    background: gray
+}
